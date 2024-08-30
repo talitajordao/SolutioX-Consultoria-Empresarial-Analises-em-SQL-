@@ -61,5 +61,5 @@ GROUP BY cliente
 ORDER BY total_orcado DESC
 ```
 ***
-
+Atráves dessa análise podemos identificar como foi o desempenho de Julho de 2020 e comparar com Julho do ano passado por exemplo, assim como mensurar oque esperar dos próximos meses a partir dessa informação.
 ***

@@ -1,6 +1,6 @@
 # SolutioX Consultoria Empresarial - Analises em SQL 
 ***
-Repositório com consultas SQL e scripts para análises de orçamentos, vendas e desempenho de vendedores, ajudando a otimizar a estratégia comercial da empresa.
+Repositório com consultas SQL e scripts para análises de orçamentos, vendas e desempenho de vendedores, ajudando a otimizar a estratégia comercial da empresa de serviços de TI.
 ***
 ### Título do Repositório: Análises SQL para o Setor Comercial da SolutioX
 

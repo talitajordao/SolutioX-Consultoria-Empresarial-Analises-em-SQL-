@@ -46,3 +46,7 @@ FROM forcamentos
 ```
 ***
 Atráves dessa análise conseguimos entender quais são nossos clientes e é possivel criar estratégias para fidelizar ainda mais esses clientes e oferecer outros produtos e serviços, assim aumentando a receita da empresa.
+***
+### Com a utilização de WHERE em SQL foi filtrado pontos importantes para empresa
+***
+

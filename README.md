@@ -13,5 +13,5 @@ O objetivo é fornecer uma base sólida de scripts SQL para analisar e melhorar 
 ### Contém no Repositório:
 
 - Página inicial com resumo do repositório
-- Arquivos utilizados para análise
 - Página única com todas as querys e análises (possuindo descrição)
+- Arquivos utilizados para análise

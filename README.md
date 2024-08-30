@@ -13,7 +13,6 @@ Bem-vindo(a) ao repositório de análises SQL da SolutioX! Este repositório con
 O objetivo é fornecer uma base sólida de scripts SQL para analisar e melhorar a gestão de orçamentos, monitorar vendas e avaliar o desempenho dos vendedores. Os scripts são projetados para serem adaptáveis às necessidades específicas do negócio, ajudando na tomada de decisões estratégicas.
 ***
 ### Contém no Repositório:
-***
 
 - Página inicial com resumo do repositório
 - Arquivos utilizados para análise

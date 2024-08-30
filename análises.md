@@ -49,17 +49,17 @@ FROM forcamentos
 ***
 Atráves dessa análise conseguimos entender quais são nossos clientes e é possivel criar estratégias para fidelizar ainda mais esses clientes e oferecer outros produtos e serviços, assim aumentando a receita da empresa.
 ***
-### Com a utilização de WHERE em SQL foi filtrado pontos importantes para empresa
+### Com a utilização de WHERE e BETWEEN em SQL foi filtrado todos os orçamentos fechados (vendidos) no mês de Julho de 2020
 ***
+```sql
 SELECT 
     cliente,
     SUM(valor_do_orcamento) AS total_orcado
-FROM forcamentos
---WHERE status = 'VENDIDO'
---WHERE status IN ('VENDIDO', 'EM NEGOCIAÇÃO')
---WHERE NOT setor_cliente = 'BANCOS'
---WHERE status = 'VENDIDO' AND setor_cliente = 'BANCOS'
-WHERE cliente LIKE '%Energia%'
+WHERE status = 'VENDIDO' AND data_cotacao BETWEEN '2020-07-01' AND '2020-07-31'
+FROM forçamentos
 GROUP BY cliente
 ORDER BY total_orcado DESC
+```
+***
+
 ***

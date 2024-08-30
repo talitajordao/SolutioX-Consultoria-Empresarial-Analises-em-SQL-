@@ -6,7 +6,7 @@
 - cliente
 - estado
 - vendedor
-***
+
 ```sql
 SELECT valor_do_orcamento, 
        data_cotacao, 
@@ -25,7 +25,7 @@ Atráves dessa análise é possivel enxergar quais vendedores realizaram os maio
 - média orçado
 - quantidade de orçamentos
 - quantidade de clientes
-***
+
 ```SQL
 SELECT 
     status,
@@ -41,7 +41,7 @@ ORDER BY total_orcado DESC
 Atráves dessa análise é possivel identificar os KPI'S do negócio. Analisar e gerenciar o nível do desempenho para alcançar e medir os objetivos e metas da empresa.
 ***
 ### Com a utilização do SELECT DISTINCT trouxe o nome de todos os clientes da empresa SolutioX de forma distinta
-***
+
 ```sql
 SELECT DISTINCT status, cliente
 FROM forcamentos
@@ -50,7 +50,7 @@ FROM forcamentos
 Atráves dessa análise conseguimos entender quais são nossos clientes e é possivel criar estratégias para fidelizar ainda mais esses clientes e oferecer outros produtos e serviços, assim aumentando a receita da empresa.
 ***
 ### Com a utilização de WHERE e BETWEEN em SQL foi filtrado todos os orçamentos fechados (vendidos) no mês de Julho de 2020
-***
+
 ```sql
 SELECT 
     cliente,
@@ -63,3 +63,16 @@ ORDER BY total_orcado DESC
 ***
 Atráves dessa análise podemos identificar como foi o desempenho de Julho de 2020 e comparar com Julho do ano passado por exemplo, assim como mensurar oque esperar dos próximos meses a partir dessa informação.
 ***
+### Com a utilização de HAVING em SQL foi filtrada as informações de uma coluna recém criada identificada como valor total de cada meio de pagamento utilizado, foi ordenado trazer meios de pagamento com valor total maior que 100.000
+
+```sql
+SELECT 
+  payment_method_raw,
+  SUM(price * quantity) AS valor_total
+FROM pedidos
+  INNER JOIN pedidositens ON pedidos.order_id = pedidositens.order_id
+  GROUP BY payment_method_raw
+  HAVING valor_total >= 100000
+  ORDER BY valor_total DESC
+```
+

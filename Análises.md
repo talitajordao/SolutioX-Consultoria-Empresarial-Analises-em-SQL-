@@ -23,18 +23,26 @@ Atráves dessa análise
 - média orçado
 - quantidade de orçamentos
 - quantidade de clientes
-  ***
-```sq1
+***
+```SQL
 SELECT 
     status,
     SUM (valor_do_orcamento) AS total_orcado,
     AVG (valor_do_orcamento) AS media_orcado,
     COUNT (*) AS qtd_orcamentos,
     COUNT (DISTINCT cliente) AS qtd_clientes
-    FROM forcamentos
-    GROUP BY status
-    ORDER BY total_orcado DESC
+FROM forcamentos
+GROUP BY status
+ORDER BY total_orcado DESC
 ```
 ***
 Atráves dessa análise
 ***
+### Com a utilização do SELECT DISTINCT trouxe o nome de todos os clientes da empresa SolutioX de forma distinta
+***
+```sql
+SELECT DISTINCT status, cliente
+FROM forcamentos
+```
+***
+

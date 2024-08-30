@@ -1,6 +1,6 @@
 # Análises do Negócio
 ***
-# Com a sintaxe básica em SQL trouxe os 10 primeiros  orçamentos mais altos que a empresa realizou, contendo:
+### Com a sintaxe básica em SQL trouxe os 10 primeiros  orçamentos mais altos que a empresa realizou, contendo:
 - valor do orçamento
 - data da cotação
 - cliente
@@ -18,7 +18,7 @@ LIMIT 10
 ***
 Atráves dessa análise
 ***
-# Com a utilização das fórmulas estatísticas do SQL e com base nos status, foi criada colunas de:
+### Com a utilização das fórmulas estatísticas do SQL e com base nos status, foi criada colunas de:
 - total orçado
 - média orçado
 - quantidade de orçamentos

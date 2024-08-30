@@ -5,12 +5,14 @@
 - data da cotação
 - cliente
 - estado
+- vendedor
 ***
 ```sql
 SELECT valor_do_orcamento, 
        data_cotacao, 
        cliente, 
-       estado
+       estado,
+       vendedor
 FROM forcamentos
 ORDER BY valor_do_orcamento DESC
 LIMIT 10

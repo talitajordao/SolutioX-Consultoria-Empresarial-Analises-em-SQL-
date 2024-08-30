@@ -16,7 +16,7 @@ ORDER BY valor_do_orcamento DESC
 LIMIT 10
 ```
 ***
-Atráves dessa análise
+Atráves dessa análise é possivel enxergar quais vendedores realizaram os maiores orçamentos para posteriormente analisar os fechamentos, assim pode-se mapear oque cada vendedor realizou para fechar com o cliente, com isso, visando o crescimento da empresa e desenvolvimento dos vendedores podem ser estrategicamente desenvolvidos atráves desses fechamentos.
 ***
 ### Com a utilização das fórmulas estatísticas do SQL e com base nos status, foi criada colunas de:
 - total orçado
@@ -36,7 +36,7 @@ GROUP BY status
 ORDER BY total_orcado DESC
 ```
 ***
-Atráves dessa análise
+Atráves dessa análise é possivel identificar os KPI'S do negócio. Analisar e gerenciar o nível do desempenho para alcançar e medir os objetivos e metas da empresa.
 ***
 ### Com a utilização do SELECT DISTINCT trouxe o nome de todos os clientes da empresa SolutioX de forma distinta
 ***
@@ -45,4 +45,4 @@ SELECT DISTINCT status, cliente
 FROM forcamentos
 ```
 ***
-
+Atráves dessa análise conseguimos entender quais são nossos clientes e é possivel criar estratégias para fidelizar ainda mais esses clientes e oferecer outros produtos e serviços, assim aumentando a receita da empresa.

@@ -1,4 +1,4 @@
-# Análises do Negocto
+# Análises do Negócio
 ***
 # Com a sintaxe básica em SQL trouxe os 10 primeiros  orçamentos mais altos que a empresa realizou, contendo:
 - valor do orçamento

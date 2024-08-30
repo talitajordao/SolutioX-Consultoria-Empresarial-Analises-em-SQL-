@@ -49,4 +49,15 @@ Atráves dessa análise conseguimos entender quais são nossos clientes e é pos
 ***
 ### Com a utilização de WHERE em SQL foi filtrado pontos importantes para empresa
 ***
-
+SELECT 
+    cliente,
+    SUM(valor_do_orcamento) AS total_orcado
+FROM forcamentos
+--WHERE status = 'VENDIDO'
+--WHERE status IN ('VENDIDO', 'EM NEGOCIAÇÃO')
+--WHERE NOT setor_cliente = 'BANCOS'
+--WHERE status = 'VENDIDO' AND setor_cliente = 'BANCOS'
+WHERE cliente LIKE '%Energia%'
+GROUP BY cliente
+ORDER BY total_orcado DESC
+***

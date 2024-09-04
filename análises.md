@@ -63,7 +63,7 @@ ORDER BY total_orcado DESC
 ***
 Atráves dessa análise podemos identificar como foi o desempenho de Julho de 2020 e comparar com Julho do ano passado por exemplo, assim como mensurar oque esperar dos próximos meses a partir dessa informação.
 ***
-### Com a utilização de HAVING em SQL foi filtrada as informações de uma coluna recém criada identificada como valor total de cada meio de pagamento utilizado, foi ordenado trazer meios de pagamento com valor total maior que 100.000
+### Com a utilização de INNER JOIN e HAVING em SQL foi filtrada as informações de uma coluna recém criada identificada como valor total de cada meio de pagamento utilizado, foi ordenado trazer meios de pagamento com valor total maior que 100.000, a partir das informações do JOIN realizado com a mescla na tabela de pedidositens e na tabela de pedidos na coluna de order.id
 
 ```sql
 SELECT 

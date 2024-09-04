@@ -75,4 +75,7 @@ FROM pedidos
   HAVING valor_total >= 100000
   ORDER BY valor_total DESC
 ```
+Com essa análise conseguimos ter um insight de quais meios de pagamento os clientes mais utilizam e podemos a partir disso, implementar beneficios maiores por esse meios de pagamento mais utilizados como por exemplo: menores taxas e aumento de X parcelamentos, visando o fechamento com o cliente e a boa imagem da empresa.
+***
 
+###

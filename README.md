@@ -15,3 +15,5 @@ O objetivo é fornecer uma base sólida de scripts SQL para analisar e melhorar 
 - Página inicial com resumo do repositório
 - Página única com todas as querys e análises (possuindo descrição)
 - Arquivos utilizados para análise
+***
+## ANÁLISES E QUERYS REALIZADAS NO DATA.WORLD
